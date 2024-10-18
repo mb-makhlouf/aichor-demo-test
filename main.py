@@ -28,5 +28,5 @@ if __name__ == "__main__":
     OPERATOR_TABLE[args.operator](args.tb_write)
 
     if args.sleep > 0:
-        print(f"sleeping for {args.sleep}s before exiting")
+        print(f"sleeping for {args.sleep}s before exiting   ")
         time.sleep(args.sleep)
