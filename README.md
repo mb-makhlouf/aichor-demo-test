@@ -9,7 +9,7 @@ This is an AIchor demo project
 This project aims to get up to speed with AIchor by going through the whole process, from setting up the VCS and project until running an experiment.
 
 
-Benefits:
+Benefits:    
 - Light and simple images to speedup the build phase.
 - Ability to test all operators within a single AIchor project (this repo).
 
