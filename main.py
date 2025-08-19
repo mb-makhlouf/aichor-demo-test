@@ -30,7 +30,7 @@ def generate_logs(size, unit='B', batch_size=1024):
         batch = [log_entry] * entries_in_batch
         # Print out the batch
         print("".join(batch), end='')
-        # Update the number of bytes written
+        # Update the number of bytes written    
         bytes_written += log_entry_size * entries_in_batch
 
 OPERATOR_TABLE = {
