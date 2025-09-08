@@ -67,13 +67,13 @@ def get_index() -> int:
     jobset_type_index = os.environ.get("JOB_INDEX") # here JOB_GLOBAL_INDEX could also be used in this scenario
     if jobset_type_index == None:
         return 0
-    return jobset_type_index
+    return int(jobset_type_index)
 
 def get_completion() -> int:
     jobset_completion_index = os.environ.get("JOB_COMPLETION_INDEX")
     if jobset_completion_index == None:
         return 0
-    return jobset_completion_index
+    return int(jobset_completion_index)
 
 # Now we can use the variables to define different tasks
 if __name__ == '__main__':
