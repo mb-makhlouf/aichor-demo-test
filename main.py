@@ -18,7 +18,7 @@ def generate_logs(size, unit='B', batch_size=1024):
         'TiB': 1024**4
     }
     total_size_bytes = size * units[unit]
-    log_entry = "This is a log entry.\n"
+    log_entry = "beyrem : This is a log entry.\n"
     log_entry_size = len(log_entry)
     # Generate logs in small batches
     bytes_written = 0
