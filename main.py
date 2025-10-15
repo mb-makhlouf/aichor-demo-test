@@ -56,3 +56,4 @@ if __name__ == "__main__":
     if args.sleep > 0:
         print(f"sleeping for {args.sleep}s before exiting   ")
         time.sleep(args.sleep)
+    print("Beyrem: Good bey")
