@@ -52,8 +52,5 @@ if __name__ == "__main__":
 
     print(f"using {args.operator} operator")
     OPERATOR_TABLE[args.operator](args.tb_write)
-    generate_logs(400, unit='MiB')
-    if args.sleep > 0:
-        print(f"sleeping for {args.sleep}s before exiting   ")
-        time.sleep(args.sleep)
+    generate_logs(1, unit='MiB')
     print("Beyrem: Good bey")
