@@ -2,7 +2,7 @@
 
 kind: AIchorManifest
 apiVersion: 0.2.2
-
+engineName: main-gcp-dev-d4f2ce98b4f34cdb
 builder:
   image: image
   context: smoke-test # smoke-test folder
